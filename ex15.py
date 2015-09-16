@@ -4,6 +4,7 @@ script, filename = argv
 
 txt = open(filename)
 
+print "Self file is %s"%script
 print "Here's your %r:" %filename
 print txt.read()
 
